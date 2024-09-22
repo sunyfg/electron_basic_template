@@ -53,4 +53,18 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  // 发布者
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          owner: "sunyfg",
+          name: "electron_basic_template",
+        },
+        prerelease: false, // 是否发布预览版
+        draft: true, // 是否发布草稿
+      },
+    },
+  ],
 };
