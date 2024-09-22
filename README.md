@@ -1,6 +1,6 @@
 # Electron Basic Template
 
-一个基于 Electron 的基础模板，集成了 TypeScript、ESLint、Prettier 等开发工具。
+一个基于 Electron 的基础模板，集成了 ESLint、Prettier 等开发工具。
 
 ## 本地开发
 
